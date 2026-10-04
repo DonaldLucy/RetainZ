@@ -1,0 +1,4 @@
+# Two committed-key attempts; injection targets the second C.
+C 1 stable 5 short @CKPT@ @FIRST@,@SECOND@
+C 2 pending 6 short @CKPT@ @FIRST@,@SECOND@
+Q

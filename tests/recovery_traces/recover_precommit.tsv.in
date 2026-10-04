@@ -1,0 +1,6 @@
+# Only the first checkpoint is recoverable before pending's journal commit.
+R 3 stable
+C 4 next 8 short @CKPT@ @FIRST@,@SECOND@
+R 4 next
+R 4 stable
+Q

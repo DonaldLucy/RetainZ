@@ -1,0 +1,18 @@
+{
+  "model": "EleutherAI/pythia-1b",
+  "model_revision": "f73d7dcc545c8bd326d8559c8ef84ffe92fea6b2",
+  "dataset": "Salesforce/wikitext:wikitext-2-raw-v1/train",
+  "torch": "2.8.0+cu128",
+  "device": "cpu",
+  "threads": 2,
+  "dtype": "bfloat16",
+  "parameters": 1011781632,
+  "optimizer": "AdamW (optimizer-in-backward; one microbatch; full BF16 moments memory-mapped on local disk)",
+  "seed": 20260926,
+  "seq_length": 32,
+  "steps_per_checkpoint": 1,
+  "retention": "latest 3 plus every fifth; applied after save",
+  "note": "Full model and optimizer DCP files; no distributed/GPU training claim.",
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+  "dataset_file": "wikitext-2-raw-v1/train-00000-of-00001.parquet"
+}

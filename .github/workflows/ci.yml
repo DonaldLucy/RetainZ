@@ -1,0 +1,19 @@
+name: Artifact checks
+permissions:
+  contents: read
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: make -j2 test
+      - run: python tools/lifecycle_example.py
+      - run: python tools/rebuild_inputs.py
+      - run: python tools/analyze.py --check-paper
+      - run: python tools/verify_recovery.py
+      - run: python tools/fetch_runtime_sources.py
+      - run: python tests/runtime_retention.py

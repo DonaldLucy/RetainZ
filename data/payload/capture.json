@@ -1,0 +1,309 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+  "dataset": "WikiText-2",
+  "dataset_file": "wikitext-2-raw-v1/train-00000-of-00001.parquet",
+  "device": "CPU",
+  "dtype": "BF16",
+  "epochs": 8,
+  "threads": 2,
+  "torch": "2.8.0+cu128",
+  "parameters": 134515008,
+  "optimizer": "AdamW",
+  "seed": 20260927,
+  "sequence_length": 32,
+  "steps_per_checkpoint": 1,
+  "peak_rss_kib": 2351324,
+  "payload_bytes": 6925844480,
+  "records": [
+    {
+      "step": 1,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 0,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 0
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 266240
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 216829952
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 433127424
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 649428992
+        }
+      ],
+      "loss": 4.965123653411865,
+      "train_seconds": 0.8089247510069981,
+      "save_seconds": 1.446202644961886
+    },
+    {
+      "step": 2,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 865730560,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 865730560
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 865996800
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 1082560512
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 1298857984
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 1515159552
+        }
+      ],
+      "loss": 4.098645210266113,
+      "train_seconds": 0.4920330260065384,
+      "save_seconds": 1.5402800549636595
+    },
+    {
+      "step": 3,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 1731461120,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 1731461120
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 1731727360
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 1948291072
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 2164588544
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 2380890112
+        }
+      ],
+      "loss": 5.598565578460693,
+      "train_seconds": 0.4785664609516971,
+      "save_seconds": 1.4692152430070564
+    },
+    {
+      "step": 4,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 2597191680,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 2597191680
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 2597457920
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 2814021632
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 3030319104
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 3246620672
+        }
+      ],
+      "loss": 3.2826333045959473,
+      "train_seconds": 0.4477556240162812,
+      "save_seconds": 1.4654775350354612
+    },
+    {
+      "step": 5,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 3462922240,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 3462922240
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 3463188480
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 3679752192
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 3896049664
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 4112351232
+        }
+      ],
+      "loss": 5.78183126449585,
+      "train_seconds": 0.45882717199856415,
+      "save_seconds": 1.5516573690110818
+    },
+    {
+      "step": 6,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 4328652800,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 4328652800
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 4328919040
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 4545482752
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 4761780224
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 4978081792
+        }
+      ],
+      "loss": 5.731929779052734,
+      "train_seconds": 0.46144893701421097,
+      "save_seconds": 1.479526530019939
+    },
+    {
+      "step": 7,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 5194383360,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 5194383360
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 5194649600
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 5411213312
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 5627510784
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 5843812352
+        }
+      ],
+      "loss": 4.1870293617248535,
+      "train_seconds": 0.46079000597819686,
+      "save_seconds": 1.465753608965315
+    },
+    {
+      "step": 8,
+      "total_bytes": 865718951,
+      "stored_bytes": 865730560,
+      "image_offset": 6060113920,
+      "files": [
+        {
+          "name": ".metadata",
+          "size_bytes": 264528,
+          "image_offset": 6060113920
+        },
+        {
+          "name": "__0_0.distcp",
+          "size_bytes": 216563607,
+          "image_offset": 6060380160
+        },
+        {
+          "name": "__0_1.distcp",
+          "size_bytes": 216294644,
+          "image_offset": 6276943872
+        },
+        {
+          "name": "__0_2.distcp",
+          "size_bytes": 216297798,
+          "image_offset": 6493241344
+        },
+        {
+          "name": "__0_3.distcp",
+          "size_bytes": 216298374,
+          "image_offset": 6709542912
+        }
+      ],
+      "loss": 5.306442737579346,
+      "train_seconds": 0.5169656510115601,
+      "save_seconds": 1.5316434539854527
+    }
+  ],
+  "dataset_revision": "b08601e04326c79dfdd32d625aee71d232d685c3"
+}

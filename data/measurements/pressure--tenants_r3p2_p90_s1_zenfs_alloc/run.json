@@ -1,0 +1,26 @@
+{
+  "case": {
+    "name": "pressure--tenants_r3p2_p90_s1_zenfs_alloc",
+    "policy": "zenfs_alloc",
+    "trace": "experiments/traces/pressure/tenants_r3p2_p90_s1.tsv",
+    "capacity_mib": 256,
+    "zone_bytes": 4194304,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "timeout": 120,
+    "cadence_ms": 100,
+    "study": "pressure",
+    "bench": "build/fixed_reserve",
+    "init": "femu/guest_init.sh",
+    "nice": 15,
+    "kernel_extra": "rz_zenfs_resources=1",
+    "warmup_epochs": 20,
+    "launcher_workers": 1
+  },
+  "guest_success": false,
+  "process_exit": 0,
+  "elapsed_seconds": 11.380094289779663,
+  "recovery_after_capacity": true,
+  "stop_reason": "capacity"
+}

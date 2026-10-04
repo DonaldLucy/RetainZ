@@ -1,0 +1,28 @@
+{
+  "case": {
+    "name": "payload--payload_torchtitan_retainz_pressure",
+    "policy": "retainz_pressure",
+    "trace": "experiments/traces/payload/torchtitan.tsv",
+    "capacity_mib": 4096,
+    "zone_bytes": 67108864,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "timeout": 900,
+    "bench": "build/payload",
+    "init": "femu/payload_init.sh",
+    "nice": 15,
+    "study": "payload",
+    "runtime": "torchtitan",
+    "payload_image": "data/payload/payload.img",
+    "payload_index": "data/payload/payload.index",
+    "restore_trace": "data/payload/torchtitan_restore.tsv",
+    "warmup_epochs": 0,
+    "launcher_workers": 1
+  },
+  "guest_success": true,
+  "process_exit": 0,
+  "elapsed_seconds": 111.20510172843933,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

@@ -1,0 +1,14 @@
+{
+  "backend": "online",
+  "policy": "isolation",
+  "status": "failed",
+  "committed_checkpoints": 42,
+  "failed_epoch": 20,
+  "logical_bytes": 309268480,
+  "payload_bytes": 309268480,
+  "gc_write_bytes": 0,
+  "metadata_write_bytes": 569344,
+  "resets": 32,
+  "recover": false,
+  "mock_device": false
+}

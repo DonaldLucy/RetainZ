@@ -1,0 +1,29 @@
+{
+  "case": {
+    "name": "span_extended_retention--span_promotion_s5_full",
+    "study": "span_extended_retention",
+    "profile": "promotion",
+    "seed": 5,
+    "experiment": "full",
+    "policy": "retainz_pressure",
+    "trace": "experiments/traces/sensitivity/promotion_s5.tsv",
+    "zone_bytes": 4194304,
+    "capacity_mib": 256,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "cadence_ms": 100,
+    "nice": 19,
+    "timeout": 180,
+    "bench": "build/retainz",
+    "init": "femu/guest_init.sh",
+    "kernel_extra": "rz_zenfs_resources=1 rz_borrow=1 rz_experiment=full",
+    "warmup_epochs": 20,
+    "launcher_workers": 1
+  },
+  "guest_success": true,
+  "process_exit": 0,
+  "elapsed_seconds": 32.80476188659668,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

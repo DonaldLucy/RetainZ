@@ -1,0 +1,25 @@
+{
+  "case": {
+    "name": "replacement_capacity--real_1b_cap65536_z1073741824_o4_retainz_pressure_borrow_atomic",
+    "policy": "retainz_pressure",
+    "trace": "experiments/traces/pressure/real_1b_cap65536_z1073741824_o4.tsv",
+    "capacity_mib": 65536,
+    "zone_bytes": 1073741824,
+    "open": 4,
+    "active": 8,
+    "backing": "compressed",
+    "timeout": 3600,
+    "bench": "build/replacement_capacity",
+    "init": "femu/guest_init.sh",
+    "kernel_extra": "rz_zenfs_resources=1 rz_borrow=1",
+    "study": "replacement_capacity",
+    "nice": 15,
+    "warmup_epochs": 0,
+    "launcher_workers": 2
+  },
+  "guest_success": true,
+  "process_exit": 0,
+  "elapsed_seconds": 736.9851133823395,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

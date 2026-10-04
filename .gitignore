@@ -1,0 +1,15 @@
+/build/
+/results/
+/third_party/FEMU/
+/third_party/megatron/
+/third_party/torchtitan/
+/data/payload/checkpoints/
+/data/payload/retention_*/
+/data/payload/*.img
+/data/payload/*.pt
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store

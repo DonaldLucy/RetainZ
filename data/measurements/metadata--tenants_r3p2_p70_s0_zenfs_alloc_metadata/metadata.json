@@ -1,0 +1,8 @@
+{
+  "allocator_usable_bytes": 440480,
+  "blocks": 505,
+  "generation_records": 251,
+  "extent_records": 2282,
+  "zone_records": 64,
+  "scope": "Final heap allocations owned by checkpoint map/keys/extent-index vectors, extent records/keys, zone state and device geometry. Excludes stack members, I/O buffers, statistics, allocator headers, freed arena pages and transient allocations."
+}

@@ -1,0 +1,25 @@
+{
+  "case": {
+    "name": "capacity--real_1b_cap131072_z1073741824_o8_zenfs_alloc",
+    "policy": "zenfs_alloc",
+    "trace": "experiments/traces/pressure/real_1b_cap131072_z1073741824_o8.tsv",
+    "capacity_mib": 131072,
+    "zone_bytes": 1073741824,
+    "open": 8,
+    "active": 16,
+    "backing": "compressed",
+    "timeout": 3600,
+    "bench": "build/fixed_reserve",
+    "init": "femu/guest_init.sh",
+    "kernel_extra": "rz_zenfs_resources=1",
+    "study": "capacity",
+    "nice": 15,
+    "warmup_epochs": 0,
+    "launcher_workers": 2
+  },
+  "guest_success": true,
+  "process_exit": 0,
+  "elapsed_seconds": 341.13887119293213,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

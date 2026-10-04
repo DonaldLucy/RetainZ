@@ -1,0 +1,80 @@
+{
+  "events": [
+    {
+      "op": "C",
+      "epoch": 1,
+      "step": 1,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 2,
+      "step": 2,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 3,
+      "step": 3,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 4,
+      "step": 1
+    },
+    {
+      "op": "C",
+      "epoch": 4,
+      "step": 4,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 5,
+      "step": 2
+    },
+    {
+      "op": "C",
+      "epoch": 5,
+      "step": 5,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 6,
+      "step": 6,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 7,
+      "step": 4
+    },
+    {
+      "op": "C",
+      "epoch": 7,
+      "step": 7,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 8,
+      "step": 5
+    },
+    {
+      "op": "C",
+      "epoch": 8,
+      "step": 8,
+      "observed_files": 5
+    }
+  ],
+  "live_steps": [
+    3,
+    6,
+    7,
+    8
+  ],
+  "ordering": "pre-save purge",
+  "scope": "Unmodified upstream retention callback bodies; local rank-0 plumbing and joined deletion workers; DCP trainer is this driver, not the full distributed framework."
+}

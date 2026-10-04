@@ -1,0 +1,14 @@
+{
+  "backend": "online",
+  "policy": "retainz",
+  "status": "failed",
+  "committed_checkpoints": 24,
+  "failed_epoch": 24,
+  "logical_bytes": 155765190339,
+  "payload_bytes": 161171488768,
+  "gc_write_bytes": 0,
+  "metadata_write_bytes": 540672,
+  "resets": 92,
+  "recover": false,
+  "mock_device": false
+}

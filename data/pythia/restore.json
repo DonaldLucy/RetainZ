@@ -1,0 +1,7 @@
+{
+  "seconds": 13.719736049999483,
+  "bytes": 6072133173,
+  "model_tensors_equal": true,
+  "restored_step": 24,
+  "max_rss_kib": 7920372
+}

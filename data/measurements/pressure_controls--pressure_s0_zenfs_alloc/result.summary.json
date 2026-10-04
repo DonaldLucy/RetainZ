@@ -1,0 +1,14 @@
+{
+  "backend": "online",
+  "policy": "zenfs_alloc",
+  "status": "ok",
+  "committed_checkpoints": 251,
+  "failed_epoch": 0,
+  "logical_bytes": 1356234752,
+  "payload_bytes": 1356234752,
+  "gc_write_bytes": 469729280,
+  "metadata_write_bytes": 4575232,
+  "resets": 411,
+  "recover": false,
+  "mock_device": false
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "name": "metadata--tenants_r3p2_p70_s0_zenfs_alloc_metadata",
+    "policy": "zenfs_alloc",
+    "trace": "experiments/traces/pressure/tenants_r3p2_p70_s0.tsv",
+    "capacity_mib": 256,
+    "zone_bytes": 4194304,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "timeout": 120,
+    "cadence_ms": 100,
+    "study": "metadata",
+    "bench": "build/metadata",
+    "init": "femu/guest_init.sh",
+    "nice": 15,
+    "kernel_extra": "rz_zenfs_resources=1",
+    "warmup_epochs": 20,
+    "launcher_workers": 1
+  },
+  {
+    "name": "metadata--tenants_r3p2_p70_s0_retainz_pressure_metadata",
+    "policy": "retainz_pressure",
+    "trace": "experiments/traces/pressure/tenants_r3p2_p70_s0.tsv",
+    "capacity_mib": 256,
+    "zone_bytes": 4194304,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "timeout": 120,
+    "cadence_ms": 100,
+    "study": "metadata",
+    "bench": "build/metadata",
+    "init": "femu/guest_init.sh",
+    "nice": 15,
+    "kernel_extra": "rz_zenfs_resources=1",
+    "warmup_epochs": 20,
+    "launcher_workers": 1
+  }
+]

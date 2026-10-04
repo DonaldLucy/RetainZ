@@ -1,0 +1,29 @@
+{
+  "runs": 235,
+  "studies": {
+    "pressure": 42,
+    "allocation_scan": 6,
+    "pressure_repeats": 4,
+    "hint_precision": 6,
+    "capacity": 6,
+    "payload": 4,
+    "allocation_cached": 6,
+    "metadata": 2,
+    "replacement_capacity": 2,
+    "replacement_pressure": 6,
+    "placement": 35,
+    "small_checkpoints": 25,
+    "pressure_controls": 15,
+    "delayed_deletion": 6,
+    "extended_retention": 6,
+    "placement_repeats": 4,
+    "span_pressure": 6,
+    "span_small_checkpoints": 6,
+    "span_delayed_deletion": 6,
+    "span_extended_retention": 6,
+    "zone_reference": 9,
+    "active_budget_14": 9,
+    "active_budget_30": 9,
+    "zone_capacity_64m": 9
+  }
+}

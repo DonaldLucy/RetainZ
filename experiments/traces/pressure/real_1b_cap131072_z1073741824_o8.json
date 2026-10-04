@@ -1,0 +1,17 @@
+{
+  "kind": "real",
+  "epochs": 12,
+  "ratio": 1.6,
+  "zone_bytes": 1073741824,
+  "zones": 128,
+  "occupancy_target": 0,
+  "resident_bytes": 0,
+  "seed": 0,
+  "k": 3,
+  "retain": 5,
+  "probability": 0.05,
+  "manifest": "data/pythia/manifests.jsonl",
+  "requested_checkpoints": 12,
+  "checkpoint_logical_bytes": 72865598076,
+  "protocol": "C(write+commit) before actual D; P explicit; R live-only"
+}

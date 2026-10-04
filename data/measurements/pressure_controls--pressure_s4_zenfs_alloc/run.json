@@ -1,0 +1,28 @@
+{
+  "case": {
+    "name": "pressure_controls--pressure_s4_zenfs_alloc",
+    "trace": "experiments/traces/placement/pressure_s4.tsv",
+    "policy": "zenfs_alloc",
+    "experiment": "zenfs_alloc",
+    "study": "pressure_controls",
+    "seed": 4,
+    "capacity_mib": 256,
+    "zone_bytes": 4194304,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "cadence_ms": 100,
+    "timeout": 180,
+    "nice": 19,
+    "bench": "build/retainz",
+    "init": "femu/guest_init.sh",
+    "kernel_extra": "rz_zenfs_resources=1 rz_borrow=1",
+    "warmup_epochs": 20,
+    "launcher_workers": 1
+  },
+  "guest_success": true,
+  "process_exit": 0,
+  "elapsed_seconds": 33.013211250305176,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

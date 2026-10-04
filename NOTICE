@@ -1,0 +1,6 @@
+RetainZ
+Copyright 2026 Minxing Chu and Ruoxi Yang.
+
+The ZenFS allocation adapter is derived from Western Digital's ZenFS.
+Its upstream attribution, Apache-2.0 license and alternative GPL license
+are retained in third_party/zenfs. See THIRD_PARTY.md.

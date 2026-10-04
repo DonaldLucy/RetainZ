@@ -1,0 +1,23 @@
+{
+  "case": {
+    "name": "recovery--aftercommit",
+    "policy": "retainz",
+    "trace": "tests/recovery_traces/absent.tsv",
+    "capacity_mib": 256,
+    "zone_bytes": 4194304,
+    "open": 4,
+    "active": 8,
+    "backing": "dram",
+    "timeout": 120,
+    "init": "femu/femu_recovery_init.sh",
+    "kernel_extra": "retainz_fault=aftercommit retainz_zone_bytes=4194304 retainz_open=4 retainz_active=8",
+    "study": "recovery",
+    "bench": "build/retainz",
+    "nice": 19
+  },
+  "elapsed_seconds": 6.550898611894809,
+  "process_exit": 0,
+  "guest_success": true,
+  "recovery_after_capacity": false,
+  "stop_reason": null
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the RetainZ project when using this software or its measurements."
+title: "RetainZ: Reclaim-Time-Aware Placement for AI Checkpoints on Zoned SSDs"
+type: software
+authors:
+  - family-names: Chu
+    given-names: Minxing
+    affiliation: "Harvard University; Brown University"
+  - family-names: Yang
+    given-names: Ruoxi
+    affiliation: "Tufts University"
+license: Apache-2.0
+repository-code: "https://github.com/DonaldLucy/RetainZ"

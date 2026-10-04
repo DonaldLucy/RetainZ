@@ -1,0 +1,8 @@
+# Both checkpoints must survive after pending's journal commit.
+R 3 stable
+R 3 pending
+C 4 next 8 short @CKPT@ @FIRST@,@SECOND@
+R 4 next
+R 4 stable
+R 4 pending
+Q

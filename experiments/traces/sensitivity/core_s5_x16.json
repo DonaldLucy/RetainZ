@@ -1,0 +1,19 @@
+{
+  "kind": "tenants",
+  "epochs": 120,
+  "ratio": 3.2,
+  "zone_bytes": 67108864,
+  "zones": 64,
+  "occupancy_target": 0.84,
+  "resident_bytes": 1744830464,
+  "seed": 5,
+  "k": 3,
+  "retain": 10,
+  "probability": 0.05,
+  "manifest": null,
+  "requested_checkpoints": 251,
+  "checkpoint_logical_bytes": 21557542912,
+  "protocol": "C(write+commit) before actual D; P explicit; R live-only",
+  "profile": "core",
+  "byte_scale_factor": 16
+}

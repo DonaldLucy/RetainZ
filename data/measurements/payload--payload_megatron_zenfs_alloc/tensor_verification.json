@@ -1,0 +1,25 @@
+{
+  "case": "payload--payload_megatron_zenfs_alloc",
+  "runtime": "megatron",
+  "policy": "zenfs_alloc",
+  "live_steps": [
+    3,
+    6,
+    8
+  ],
+  "bytewise_equal": true,
+  "verified_original_bytes": 2597156853,
+  "restored_step": 8,
+  "model_tensors_equal": true,
+  "optimizer_tensors_equal": true,
+  "rng_equal": true,
+  "next_step_loss_equal": true,
+  "next_step_parameters_equal": true,
+  "next_step_optimizer_equal": true,
+  "next_step_loss": 4.843743324279785,
+  "model_tensor_count": 273,
+  "adam_parameter_states": 272,
+  "comparison_load_seconds": 5.399348354025278,
+  "peak_rss_kib": 2925728,
+  "scope": "Actual CPU-trained DCP files through FEMU direct I/O, fresh backend process journal recovery, exported bytes, zero-before-load DCP restore and resumed CPU update. Not end-to-end distributed GPU training."
+}

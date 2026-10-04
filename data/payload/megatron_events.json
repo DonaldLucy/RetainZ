@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "op": "C",
+      "epoch": 1,
+      "step": 1,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 2,
+      "step": 2,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 2,
+      "step": 1
+    },
+    {
+      "op": "C",
+      "epoch": 3,
+      "step": 3,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 3,
+      "step": 2
+    },
+    {
+      "op": "C",
+      "epoch": 4,
+      "step": 4,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 5,
+      "step": 5,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 5,
+      "step": 4
+    },
+    {
+      "op": "C",
+      "epoch": 6,
+      "step": 6,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 6,
+      "step": 5
+    },
+    {
+      "op": "C",
+      "epoch": 7,
+      "step": 7,
+      "observed_files": 5
+    },
+    {
+      "op": "C",
+      "epoch": 8,
+      "step": 8,
+      "observed_files": 5
+    },
+    {
+      "op": "D",
+      "epoch": 8,
+      "step": 7
+    }
+  ],
+  "live_steps": [
+    3,
+    6,
+    8
+  ],
+  "ordering": "post-save completion",
+  "scope": "Unmodified upstream retention callback bodies; local rank-0 plumbing and joined deletion workers; DCP trainer is this driver, not the full distributed framework."
+}
